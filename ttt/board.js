@@ -1,5 +1,4 @@
 function Board () {
-  //console.log a representation of the grid
   this.grid = [ [ [], [], [] ], 
                 [ [], [], [] ], 
                 [ [], [], [] ] ]
@@ -46,11 +45,6 @@ Board.prototype.isWon = function () {
 Board.prototype.winner = function () {
   
 }
-
-
-
-
-
 
 
 var board = new Board();
